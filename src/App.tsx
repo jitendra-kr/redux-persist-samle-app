@@ -27,7 +27,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <div>
-          <button>DEC</button> {count}
+          <button onClick={dec} >DEC</button> {count}
           <button style={{marginLeft: "5px"}} onClick={inc} >INC</button>
         </div>
       </header>
